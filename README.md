@@ -2,9 +2,9 @@
 
 成员：陈龙
 
-网页端浏览：
+网页端浏览：[https://wiki.lifeisgg.online/archives/大三下实训期末作业/](https://wiki.lifeisgg.online/archives/大三下实训期末作业/)
 
-项目Github地址：
+项目Github地址：https://github.com/LifeAlsoIsGG/springcloud-demo
 
 ### 一、需求分析  
 

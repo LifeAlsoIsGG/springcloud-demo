@@ -1,0 +1,27 @@
+server:
+  port: 8001
+
+spring:
+  application:
+    name: provider.demo.8001
+  datasource:
+    username: root
+    password: 0.00.0
+    url: jdbc:mysql://localhost:3306/attendance2
+    driver-class-name: com.mysql.jdbc.Driver
+
+mybatis:
+  mapper-locations: classpath:mapper/*.xml
+  configuration:
+    map-underscore-to-camel-case: true
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://replica1:7001/eureka/,http://replica2:7002/eureka/
+
+info:
+  remark: 这里是provider.demo.8001
+  author: God

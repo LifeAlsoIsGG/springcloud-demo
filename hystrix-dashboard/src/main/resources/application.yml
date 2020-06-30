@@ -1,0 +1,18 @@
+server:
+  port: 8501
+
+spring:
+  application:
+    name: hystrix-dashboaed
+
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://replica1:7001/eureka/,http://replica2:7002/eureka/
+
+
+info:
+  remark: 这里是hystrix-dashboaed
+  author: God

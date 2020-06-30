@@ -1,0 +1,17 @@
+server:
+  port: 8701
+
+spring:
+  application:
+    name: feign-service
+eureka:
+  client:
+    fetch-registry: true
+    register-with-eureka: true
+    service-url:
+      defaultZone: http://localhost:7001,http://localhost:7002
+
+info:
+  remark: 这是feign-service
+  author: God
+
